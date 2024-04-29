@@ -19,4 +19,7 @@ public class Account {
     @Column(name = "account_holder_name")
     private String accountHolder;
     private double balance;
+    public String getAccountHolderName() {
+        throw new UnsupportedOperationException("Unimplemented method 'getAccountHolderName'");
+    }
 }
