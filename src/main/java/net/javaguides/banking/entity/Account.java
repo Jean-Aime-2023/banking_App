@@ -17,9 +17,9 @@ public class Account {
     private Long id;
 
     @Column(name = "account_holder_name")
-    private String accountHolder;
+    private String accountHolderName;
     private double balance;
-    public String getAccountHolderName() {
-        throw new UnsupportedOperationException("Unimplemented method 'getAccountHolderName'");
-    }
+    // public String getAccountHolderName() {
+    //     throw new UnsupportedOperationException("Unimplemented method 'getAccountHolderName'");
+    // }
 }
